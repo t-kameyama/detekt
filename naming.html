@@ -569,8 +569,7 @@ $('#toc').on('click', 'a', function() {
 
 <h3 id="forbiddenclassname">ForbiddenClassName</h3>
 
-<p>Reports class names which are forbidden per configuration.
-By default this rule does not report any classes.
+<p>Reports class names which are forbidden per configuration. By default, this rule does not report any classes.
 Examples for forbidden names might be too generic class names like <code class="language-plaintext highlighter-rouge">...Manager</code>.</p>
 
 <p><strong>Active by default</strong>: No</p>
@@ -708,6 +707,24 @@ These factory functions can have the same name as the class being created.</p>
   </li>
 </ul>
 
+<h3 id="lambdaparameternaming">LambdaParameterNaming</h3>
+
+<p>Reports lambda parameter names that do not follow the specified naming convention.</p>
+
+<p><strong>Active by default</strong>: No</p>
+
+<p><strong>Debt</strong>: 5min</p>
+
+<h4 id="configuration-options-10">Configuration options:</h4>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">parameterPattern</code> (default: <code class="language-plaintext highlighter-rouge">'[a-z][A-Za-z0-9]*|_'</code>)</p>
+
+    <p>naming pattern</p>
+  </li>
+</ul>
+
 <h3 id="matchingdeclarationname">MatchingDeclarationName</h3>
 
 <p>“If a Kotlin file contains a single non-private class (potentially with related top-level declarations),
@@ -719,13 +736,13 @@ Use camel humps with an uppercase first letter (e.g. ProcessDeclarations.kt).</p
 <p>The name of the file should describe what the code in the file does.
 Therefore, you should avoid using meaningless words such as “Util” in file names.” - Official Kotlin Style Guide</p>
 
-<p>More information at: http://kotlinlang.org/docs/reference/coding-conventions.html</p>
+<p>More information at: https://kotlinlang.org/docs/coding-conventions.html</p>
 
 <p><strong>Active by default</strong>: Yes - Since v1.0.0</p>
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-10">Configuration options:</h4>
+<h4 id="configuration-options-11">Configuration options:</h4>
 
 <ul>
   <li>
@@ -763,7 +780,7 @@ Factory functions that create an instance of the class are exempt from this rule
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-11">Configuration options:</h4>
+<h4 id="configuration-options-12">Configuration options:</h4>
 
 <ul>
   <li>
@@ -872,7 +889,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-12">Configuration options:</h4>
+<h4 id="configuration-options-13">Configuration options:</h4>
 
 <ul>
   <li>
@@ -902,7 +919,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Aliases</strong>: PackageDirectoryMismatch</p>
 
-<h4 id="configuration-options-13">Configuration options:</h4>
+<h4 id="configuration-options-14">Configuration options:</h4>
 
 <ul>
   <li>
@@ -920,7 +937,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-14">Configuration options:</h4>
+<h4 id="configuration-options-15">Configuration options:</h4>
 
 <ul>
   <li>
@@ -948,7 +965,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-15">Configuration options:</h4>
+<h4 id="configuration-options-16">Configuration options:</h4>
 
 <ul>
   <li>
@@ -966,7 +983,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-16">Configuration options:</h4>
+<h4 id="configuration-options-17">Configuration options:</h4>
 
 <ul>
   <li>
@@ -984,7 +1001,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
 
 <p><strong>Debt</strong>: 5min</p>
 
-<h4 id="configuration-options-17">Configuration options:</h4>
+<h4 id="configuration-options-18">Configuration options:</h4>
 
 <ul>
   <li>
@@ -1025,7 +1042,7 @@ Please check the <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2021 The detekt Team. All rights reserved. <br />
- Site last generated: Oct 30, 2021 <br />
+ Site last generated: Nov 8, 2021 <br />
                 </div>
             </div>
 </footer>
